@@ -1,0 +1,82 @@
+html, body {
+	min-height: 100%;
+}
+
+body{
+	background-image: url("DSC00238.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+
+.text{
+	visibility: hidden;
+	text-align: center;
+	color: rgba(59, 42, 108, 1);
+	height: 400px;
+	font-family: cursive;
+	font-size: 30px;
+	margin-top: 50px;
+	text-shadow: 0px 0px 5px rgba(205, 199, 221, 1);
+}
+
+.container{
+	animation: 3s linear 16s fadeIn;
+	animation-fill-mode: forwards;
+
+}
+
+.container2{
+	animation: 3s linear 24s fadeIn;
+	animation-fill-mode: forwards;
+}
+
+.container3{
+	animation: 3s linear 32s fadeIn;
+	animation-fill-mode: forwards;
+}
+
+.container4{
+	animation: 3s linear 40s fadeIn;
+	animation-fill-mode: forwards;
+}
+.bottomtext{
+	visibility: hidden;
+	text-align: center;
+	color: rgba(59, 42, 108, 1);
+	font-family: cursive;
+	font-size: 30px;
+	text-shadow: 0px 0px 3px rgba(205, 199, 221, 1);
+	margin-top: 150px;
+}
+
+.text4{
+	animation: 3s linear 48s fadeIn;
+	animation-fill-mode: forwards;
+}
+
+.text5{
+	animation: 3s linear 56s fadeIn;
+	animation-fill-mode: forwards;
+}
+
+.anniversary{
+	font-size: 40px;
+	animation: 3s linear 64s fadeIn;
+	animation-fill-mode: forwards;
+}
+
+
+
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+
