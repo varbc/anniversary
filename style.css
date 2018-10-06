@@ -46,6 +46,7 @@ body{
 	color: rgba(59, 42, 108, 1);
 	font-family: cursive;
 	font-size: 35px;
+	font-weight: bold;
 	text-shadow: 0px 0px 3px rgba(205, 199, 221, 1);
 	margin-top: 150px;
 }
