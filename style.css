@@ -63,7 +63,7 @@ body{
 
 .anniversary{
 	font-size: 45px;
-	text-shadow: 0px 0px 3px rgba(205, 199, 221, 1);
+	text-shadow: 0px 0px 5px rgba(205, 199, 221, 1);
 	animation: 3s linear 64s fadeIn;
 	animation-fill-mode: forwards;
 }
